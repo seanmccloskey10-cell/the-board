@@ -1,7 +1,7 @@
 ---
 name: The CEO
 short: CEO
-model: claude-opus-4-7
+model: inherit-session   # the CEO uses the session model — run on Opus when you can
 decision_dimension: "Synthesize tensions. Name what's resolved. Name what's unresolved. Recommend an action with the evidence that supports it."
 expertise_file: expertise/ceo.md
 ---

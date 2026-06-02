@@ -49,9 +49,9 @@ out loud, and ask it to interview you and draft the brief for you.
 
 ## Relevant context (optional)
 
-<If you have local files that give useful background, link them with relative paths, e.g.
-[notes/competitor-analysis.md](notes/competitor-analysis.md). The personas will read these.
-Make sure each link resolves to a real file, or the CEO will reject the brief.>
+<If you have local files that give useful background, link them with relative paths — e.g.
+a link to `notes/competitor-analysis.md`. The personas will read these. Make sure each link
+resolves to a real file, or the CEO will reject the brief.>
 
 ## Options on the table
 

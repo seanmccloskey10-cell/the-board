@@ -17,6 +17,8 @@ Render a Board memo as an audio MP3 via the ElevenLabs REST API — for the "lis
 
 ## How to invoke
 
+(On macOS/Linux, use `python3` if `python` isn't found.)
+
 From the project root:
 
 ```bash

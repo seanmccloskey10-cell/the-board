@@ -161,6 +161,8 @@ Invoke the 5 board personas **in parallel** during each round (one message, 5 su
 
 The Opus-lead + Sonnet-workers split mirrors Anthropic's own multi-agent research: the orchestrator does the hard synthesis, the workers do the specialized arguing. **If you only have Sonnet, the Board still runs** — set the CEO expectations slightly lower and proceed.
 
+> Model IDs age. If `claude-sonnet-4-6` (or the Opus you're on) is ever retired, swap in whatever current Sonnet / Opus ID your Claude Code supports. The orchestrator-lead-plus-specialist-workers *pattern* is what matters, not the exact version string.
+
 ## Model transparency
 
 Every persona output in the conversation log is prefixed with a bracketed tag naming the model + persona:

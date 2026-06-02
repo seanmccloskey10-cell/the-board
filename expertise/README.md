@@ -1,6 +1,6 @@
 # Expertise files
 
-Each persona has a growing markdown file in this folder (e.g. `distributor.md`, `skeptic.md`). They start **empty** and accumulate over time — the per-persona files don't exist until the first insight worth saving.
+Each persona has a markdown file in this folder (e.g. `distributor.md`). They ship **empty** and accumulate over time.
 
 ## What goes in here
 

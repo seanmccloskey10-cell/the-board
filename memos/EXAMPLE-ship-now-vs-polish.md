@@ -94,7 +94,7 @@ Re-open this decision only if week-1 retention comes back genuinely catastrophic
 - Rounds run: 3 + final
 - Wall-clock: 14m
 - Sub-agent invocations: 17
-- Full debate: [conversation log](../conversations/EXAMPLE-ship-now-vs-polish.md) *(generated at run time; not included in this example)*
+- Full debate: `conversations/EXAMPLE-ship-now-vs-polish.md` *(a real run writes this; it's not included with the example)*
 
 ## CEO's own note
 
