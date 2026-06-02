@@ -38,6 +38,14 @@ See [personas/README.md](personas/README.md) for the full design rationale.
 
 There's a complete worked example in [briefs/EXAMPLE-ship-now-vs-polish.md](briefs/EXAMPLE-ship-now-vs-polish.md) → [memos/EXAMPLE-ship-now-vs-polish.md](memos/EXAMPLE-ship-now-vs-polish.md). Read those to see what goes in and what comes out.
 
+## What it costs
+
+**The Board runs on your Claude Code subscription (Pro or Max). It does not use a metered Anthropic API key — there's no per-debate or per-token charge.** A debate spawns five sub-agents, but they all run under your plan; the only "cost" is your normal plan usage and rate limits. You do **not** need an Anthropic API key.
+
+> ⚠️ One gotcha: if you have an `ANTHROPIC_API_KEY` set in your environment, Claude Code may use *that* and bill it as metered API usage instead of your subscription. To stay on your plan, make sure that variable isn't set, and run `/status` in Claude Code to confirm you're signed in with your Claude account.
+
+The **only** optional paid component is the ElevenLabs audio memo — a separate service (not Anthropic), with its own free tier and its own key. Skip it and the Board costs nothing beyond the Claude plan you already pay for.
+
 ## Layout
 
 ```
