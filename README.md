@@ -27,6 +27,13 @@ It's worth running for a decision that will still matter in 6 months. It's overk
 
 See [personas/README.md](personas/README.md) for the full design rationale.
 
+## Two ways to use it
+
+- **Consultant mode** — talk it through. A 1-on-1 strategic conversation with the CEO: it asks sharp questions, helps you diagnose what's really going on, and surfaces ideas. Best when you're *stuck or exploring direction* and don't have a clean decision yet. Start with *"be my business consultant."* See [CONSULTANT.md](CONSULTANT.md).
+- **Board mode** — the full debate. Five personas argue a specific decision and the CEO writes a memo. Best when you have a *real either/or* to stress-test. Start with *"run the Board on my brief."*
+
+Consultant mode usually leads into Board mode — you think your way to the real decision, then convene the Board to test it.
+
 ## Quickstart
 
 1. **Get the project.** Clone or download this repo into a folder on your machine.
