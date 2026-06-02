@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets — never commit your API key
+.env
+.env.local
+
+# Conversation logs — debate transcripts, may contain rough thinking-in-progress.
+# Flip this (delete the next two lines) if you want full audit history tracked.
+conversations/*.md
+!conversations/README.md
+!conversations/.gitkeep
+
+# Audio memos — binary, regeneratable from the memo .md via the audio skill.
+# Flip this if you want past debate audio archived in git.
+memos/audio/*.mp3
+!memos/audio/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
